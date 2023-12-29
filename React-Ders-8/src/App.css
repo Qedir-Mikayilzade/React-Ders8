@@ -1,0 +1,52 @@
+*{
+  background-color: teal;
+}
+.custom-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; 
+}
+
+.normal-button,
+.warn-button,
+.hint-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.normal-button {
+  background-color: brown;
+  color: #fff;
+}
+
+.warn-button {
+  background-color: black;
+  color: white;
+}
+
+.warn-button.active {
+  background-color: red;
+  color: white;
+}
+
+.hint-button {
+  background-color: pink;
+  color: #fff;
+}
+
+.hint-message {
+  font-style: italic;
+  color: #555;
+  margin-top: 5px;
+}
+.normal-button:hover{
+  background-color: black;
+}
+.hint-button:hover{
+  background-color: rebeccapurple;
+}
